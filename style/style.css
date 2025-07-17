@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: #FFF4E7;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.brand-name{
+    margin: 50px 0px 0px 228px;
+}
+.list-item{
+ padding: 63px 240px 0px 0px; 
+}
+.list-item-ankor{
+    display: flex;
+    gap: 70px; 
+    list-style: none;
+    font-size: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+}
+.brand-title{
+    text-align: center;
+    padding-top: 116px;
+    h1{
+        font-size:64px ;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 16px;
+        color: #727272;
+        padding-bottom: 32px;
+    }
+    button{
+        padding:21px 24px 20px 25px ;
+        background-color:#FF900E ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+}
+.banner-img img{
+    padding: 50px 0px 45px 0px;
+     display: block;
+    margin: 50px auto 40px auto; 
+
+}
+@media screen and (max-width:576px) {
+    .brand-name
+    {
+       margin: 0px;
+       padding-top: 40px;
+    }
+    .brand-title,
+     .list-item-ankor,
+      .brand-name
+     {
+        flex-direction: column;
+    }
+    .list-item{
+        padding: 2px;
+    }
+  .list-item-ankor{
+    gap:10px;
+  }
+    
+    .banner-img img{
+        height: 100%;
+        width: 100%;
+    }
+}
