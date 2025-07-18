@@ -239,3 +239,63 @@ body{
     }
     
 }
+
+.Facts-title{
+    padding-left: 240px;
+    h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    p{
+        color: #727272;
+        width: 542px;
+    }
+}
+
+
+.facts-icon-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    padding-bottom: 180px;
+    padding-top: 100px;
+}
+.Facts-icon{
+    border: 3px solid sandybrown;
+    border-radius: 10px;
+    width: 232px;
+    height: 232px;
+    margin: 0px auto;
+    padding: 46px 37px 60px 47px;
+
+    img{
+        width: 80px;
+        height: 80px;
+        
+    }
+    h1{
+        font-size: 45px;
+        padding-top: 10px;
+
+    }
+    p{
+        font-size: 20px;
+        color: #727272;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:576px) {
+    .Facts-title{
+        padding: 20px 0px 0px 10px;
+        p{
+            flex-wrap: wrap;
+            width: 400px;
+        }
+    }
+    .facts-icon-section{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        
+    }
+    
+}
